@@ -1,0 +1,9 @@
+spring:
+  profiles: local
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: todolist
+server:
+  port: 3000
